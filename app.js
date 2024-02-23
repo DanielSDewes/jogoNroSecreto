@@ -4,7 +4,7 @@ Projeto criado no curso de lógica de programação da Alura.
 document.getElementById('chutar').removeAttribute('disabled');
 
 let listaNumerosGerados = [];
-let limiteNumerosGerar = 5;
+let limiteNumerosGerar = 100;
 
 function geraNumero(){
    let numeroGerado = parseInt(Math.random() * limiteNumerosGerar + 1);
